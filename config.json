@@ -1,0 +1,33 @@
+{
+  "threshold_waspada_cm": 171.3,
+  "threshold_bahaya_cm": 222.7,
+  "features": [
+    "water_level_hilir_cm",
+    "water_level_hulu_cm",
+    "discharge_hilir_m3s",
+    "discharge_hulu_m3s",
+    "rainfall_1h_max",
+    "rainfall_3h_max",
+    "rainfall_6h_max",
+    "soil_moisture_pct",
+    "runoff_mm",
+    "trend_hilir_cm_d",
+    "trend_hulu_cm_d",
+    "wl_hilir_lag1d",
+    "wl_hilir_lag2d",
+    "wl_hilir_lag3d",
+    "wl_hulu_lag1d",
+    "wl_hulu_lag2d",
+    "wl_hulu_lag3d",
+    "rain_lag1d",
+    "rain_lag2d",
+    "rain_lag3d",
+    "wl_hilir_ma3",
+    "wl_hulu_ma3",
+    "month",
+    "week_of_year"
+  ],
+  "n_features": 24,
+  "dataset_period": "2025-01-01 to 2025-06-30",
+  "total_rows": 177
+}
